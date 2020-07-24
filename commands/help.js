@@ -13,7 +13,7 @@ module.exports.run = async (bot, msg, args) => {
             { name: '`=country <country-name>`', value: ':microbe: **Country data about COVID-19 conditions.**', inline: true },
             { name: '`=continent or =continent <continent-name>`', value: ':microbe: **Continent data about COVID-19 conditions.**', inline: true },
         )
-        .setFooter('Made with ❤️ by softik#8376', 'https://cdn.discordapp.com/avatars/327814559777947678/9ddfe6cbc775a2622e63c81da607990f.webp')
+        .setFooter('Made with ❤️ by softik#8376', '')
         .setTimestamp()
         .setURL('https://discordapp.com/api/oauth2/authorize?client_id=722450931681067088&permissions=8&scope=bot')
 
